@@ -9,6 +9,7 @@
         flex-direction: column;
         font-family: 'Roboto Mono', monospace;
         color: #dedede;
+        background-color: #101010;
     }
     aside {
         display: flex;
