@@ -57,6 +57,7 @@ h2 {
     top: 10vh;
     left: 2%;
     font-size: 1.4rem;
+    opacity: 0.5;
 }
 aside img:hover {
     opacity: 0.75;
