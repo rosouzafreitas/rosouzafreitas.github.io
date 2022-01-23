@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Mono', monospace;
+    color: #dedede;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    background-color: #202020;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+main {
+    height: 100vh;
+    width: 50vw;
+    background-color: #101010;
+    box-shadow: -10px 0px 16px #101010;
+    z-index: 1;
+    overflow-y: scroll;
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+aside img {
+    position: relative;
+    height: 100vh;
+    transform: translate(-10%, 18%);
+    opacity: 0.3;
+    transition: opacity 1s;
+    z-index: 0;
+}
+h1 {
+    position: absolute;
+    top: 2vh;
+    left: 2%;
+    font-size: 1.6rem;
+    margin-top: 2vh;
+    word-spacing: 1px;
+}
+h2 {
+    position: absolute;
+    top: 10vh;
+    left: 2%;
+    font-size: 1.4rem;
+}
+aside img:hover {
+    opacity: 0.75;
+}
+ul {
+    margin-top: 3vh;
+    list-style-type: none;
+}
+ul span{
+    font-size: 2.6rem;
+}
+ul p {
+    font-size: 1.6rem;
+    margin-top: 0.5vh;
+    width: 38vw;
+    text-align: left;
+}
+ul img {
+    margin-top: 1vh;
+    width: 2vw;
+}
+#github {margin-left: 5vw;}
+#linkedin {margin-left: 1vw;}
+li {
+    margin-left: 7vw;
+    font-size: 1.6rem;
+}
+a {
+    color: #817ff8;
+}
+.functionName {
+    color: #368adf;
+}
+.letName {
+    color: #7d7bee;
+}
