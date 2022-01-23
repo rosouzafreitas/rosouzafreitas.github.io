@@ -8,6 +8,7 @@ body {
     flex-direction: row;
     font-family: 'Roboto Mono', monospace;
     color: #dedede;
+    background-color: #101010;
 }
 aside {
     display: flex;
